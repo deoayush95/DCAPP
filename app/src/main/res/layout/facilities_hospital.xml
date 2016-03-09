@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_no_facility_added"
+        android:layout_marginBottom="@dimen/margin_large"
+        style="@style/FormLabel"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add facility list here"
+        android:layout_marginBottom="@dimen/margin_large"
+        style="@style/FormLabel"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_create_facility"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:background="@color/theme_primary"/>
+    </LinearLayout>
+</LinearLayout>

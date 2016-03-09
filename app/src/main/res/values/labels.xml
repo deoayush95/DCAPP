@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_name">Name</string>
+    <string name="label_address">Address</string>
+    <string name="label_name_hospital">Name of the hospital</string>
+    <string name="label_speciality">Speciality</string>
+    <string name="label_number_of_beds">Number of beds</string>
+    <string name="label_email">Email</string>
+    <string name="label_registrations">Registration Number</string>
+    <string name="label_phone_number">Phone Number</string>
+    <string name="label_from">From</string>
+    <string name="label_to">To</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_male">Male</string>
+    <string name="label_female">Female</string>
+    <string name="label_date_of_birth">Date of birth</string>
+    <string name="label_contact">Contact</string>
+    <string name="label_size">Size</string>
+    <string name="label_per_day">per day</string>
+    <string name="label_beds_per_room">Number of beds per room</string>
+    <string name="label_total_number_of_such_rooms">Total number of such rooms</string>
+
+    <string name="label_open_close_timings">Open/Close Timings</string>
+
+    <string name="label_guidelines">Guidelines</string>
+
+    <string name="label_rent">Rent</string>
+    <string name="label_rate">Rate</string>
+    <string name="label_description">Description</string>
+
+    <string name="label_name_of_room_type">Name of room type</string>
+    <string name="label_facilities">Facilities</string>
+
+    <string name="label_business_name">Name of the Business*</string>
+    <string name="label_sign_up_or_upgrade">New sign up or upgrade?</string>
+    <string name="label_sign_up">New Sign up</string>
+    <string name="label_upgrade">Upgrade</string>
+    <string name="label_type_of_business">Type of business*</string>
+    <string name="label_hospital">Hospital</string>
+    <string name="label_spa_or_salon">Spa/Salon</string>
+    <string name="label_pharmacies">Pharmacies</string>
+    <string name="label_diagnostic_labs">Diagnostic Labs</string>
+    <string name="label_business_class">Buisness class*</string>
+    <string name="label_class_a">Class A</string>
+    <string name="label_class_b">Class B</string>
+    <string name="label_class_c">Class C</string>
+    <string name="label_class_d">Class D</string>
+    <string name="label_class_g">Class G</string>
+    <string name="label_correspondents">Correspondent(s)</string>
+    <string name="label_designation">Designation</string>
+    <string name="label_agreement_degree">Agreement Degree</string>
+    <string name="label_comments_for_business">Comments for the business*</string>
+    <string name="label_comments_from_verifier">Comments from verifier</string>
+    <string name="label_comments_from_data_collector">Comments from Data Collector*</string>
+    <string name="label_listing">Basic Listing</string>
+    <string name="label_booking">Booking</string>
+    <string name="label_payment">Payment</string>
+    <string name="label_listing_reviews">Reviews</string>
+    <string name="label_listing_rate_card">Rate Card</string>
+    <string name="label_status_data_collection">Status of Data Collection</string>
+
+    <string name="label_ambulance_type">Ambulance Type*</string>
+    <string name="label_no_of_such_ambulances">No. Of Such Ambulances</string>
+    <string name="label_locality">Locality</string>
+    <string name="label_locations">Locations</string>
+    <string name="label_paid">Paid</string>
+    <string name="label_free">Free</string>
+
+    <string name="label_single">Single</string>
+    <string name="label_multi">Multi</string>
+    <string name="label_super">Super</string>
+    <string name="label_quaternary">Quaternary</string>
+
+    <string name="label_not_applicable">N/A</string>
+    <string name="label_open_24_7">Open 24x7</string>
+    <string name="label_same_all_days">Same all days</string>
+    <string name="label_same_for_weekdays">Same for weekdays</string>
+    <string name="label_different_each_day">Different each day</string>
+    <string name="label_add_timing">Add timing</string>
+    <string name="label_add_language">Add Language</string>
+    <string name="label_language">Language</string>
+
+
+    <string name="label_number_of_staff">Number of staff</string>
+    <string name="label_doctors">Doctors</string>
+    <string name="label_nurses">Nurses</string>
+    <string name="label_attendants">Attendants</string>
+    <string name="label_ward_boys">Ward Boys</string>
+    <string name="label_administrators">Administrators</string>
+    <string name="label_class_4_workers">Class 4 workers</string>
+
+    <string name="label_empanelments">Empanelments</string>
+    <string name="label_insurance">Insurance</string>
+    <string name="label_tpa">Third Party Administrator</string>
+    <string name="label_corporate">Corporate</string>
+    <string name="label_others">Others</string>
+    <string name="label_other_affiliations">Other Affiliations</string>
+
+    <string name="label_payment_details">Payment Details</string>
+    <string name="label_date_of_incorporation">Date of Incorporation</string>
+    <string name="label_year_of_incorporation">Year of Incorporation</string>
+    <string name="label_specialization">Specialization</string>
+    <string name="label_main_specialization">Main Specialization</string>
+    <string name="label_super_specialization">Super Specialization</string>
+    <string name="label_add_video_url">Add video url</string>
+    <string name="label_edit_video_url">Edit video url</string>
+    <string name="label_video_url">Video url</string>
+    <string name="label_add_website">Add website</string>
+    <string name="label_edit_website">Edit website</string>
+    <string name="label_website_url">Web url</string>
+    <string name="label_awards_and_accreditation">Awards and Accreditation</string>
+    <string name="label_hometown">Hometown</string>
+    <string name="label_education">Education</string>
+    <string name="label_fellowships">Fellowships</string>
+    <string name="label_fellowships_and_trainings">Fellowships &amp; Trainings</string>
+    <string name="label_memberships">Memberships</string>
+    <string name="label_languages">Languages</string>
+    <string name="label_trainings_undertaken">Trainings Undertaken</string>
+    <string name="label_graduation_year">Graduation year</string>
+    <string name="label_experience">Experience</string>
+    <string name="label_year_of_practice_commencement">Year of Practice Commencement</string>
+    <string name="label_recommendations">Recommendations</string>
+    <string name="label_aadhaar_card_number">Aadhaar Card Number</string>
+    <string name="label_passport_number">Passport Number</string>
+    <string name="label_known_fors">Known For</string>
+    <string name="label_doctor_involvement">Doctor Involvement</string>
+    <string name="label_services_provided">Services Provided</string>
+
+    <string name="label_opd_consultation">OPD &amp; Consultation</string>
+    <string name="label_surgery_treatment">Surgery &amp; Treatment</string>
+    <string name="label_doctor_visit">Doctor Visit</string>
+
+    <string name="label_full_time">Full Time</string>
+    <string name="label_part_time">Part Time</string>
+    <string name="label_visiting">Visiting</string>
+    <string name="label_investor">Investor</string>
+
+    <string name="label_choose_home_service">Choose a Home Service</string>
+    <string name="label_diagnostic_schedule">DIAGNOSTIC TESTS SCHEDULE</string>
+    <string name="label_diagnostic_test_rates">TEST RATES</string>
+    <string name="label_choose_diagnostic_test_category">Choose a diagnostic test category</string>
+    <string name="label_filter_by_sub_category">Filter tests by sub category</string>
+
+    <string name="label_service_charge">Service Charge</string>
+    <string name="label_visiting_charges">Visiting Charges</string>
+    <string name="label_name_of_health_checkup">Name of health checkup</string>
+    <string name="label_health_checkup_type">HealthCheckup Type*</string>
+    <string name="label_services">Services</string>
+    <string name="label_package_rates">Package Rates</string>
+    <string name="label_inr">INR</string>
+    <string name="label_consulation_fee">Consultation fee (INR)</string>
+    <string name="label_follow_up_fee">Follow up fee (INR)</string>
+    <string name="label_visiting_schedule">Visiting schedule</string>
+
+    <string name="label_duration_of_appointment">Duration of appointment</string>
+    <string name="label_number_of_patients">Number of patients</string>
+    <string name="label_online">Online</string>
+    <string name="label_walk_in">Walk-in</string>
+    <string name="label_opd_call_timings">OPD Call Timings</string>
+
+    <string name="label_nursing_name">Name of nursing package</string>
+    <string name="label_services_offered">Services Offered</string>
+    <string name="label_sub_points">Sub points</string>
+    <string name="label_header">Header</string>
+
+    <string name="label_physiotherapy_name">Name of physiotherapy</string>
+
+    <string name="label_surgery_schedule">SURGERY SCHEDULE</string>
+    <string name="label_room_visit_rates">ROOM VISIT RATES</string>
+    <string name="label_surgery_rates">SURGERY RATES</string>
+    <string name="label_surgery_room_rates">SURGERY RATES BY ROOM</string>
+    <string name="label_package">PACKAGE</string>
+    <string name="label_allow_appointment">Allow appointment</string>
+    <string name="label_package_cost">Package Cost</string>
+    <string name="label_package_details">Package Details</string>
+    <string name="label_number_of_days">Number of days</string>
+    <string name="label_average_number_of_days">Average number of days</string>
+    <string name="label_overall_cost">Overall cost</string>
+    <string name="label_surgery_cost">Surgery cost</string>
+    <string name="label_legends">Legends</string>
+    <string name="label_deluxe_room">R1: Deluxe Room</string>
+    <string name="label_ac_room">R2: AC Room</string>
+    <string name="label_general_ward">R3: General Ward</string>
+
+    <string name="label_room_wise_rates">Room wise rates</string>
+    <string name="label_individual">INDIVIDUAL</string>
+
+    <string name="label_opd_consultation_schedule">OPD &amp; CONSULTATION SCHEDULE</string>
+    <string name="label_instructions_for_follow_up">Instructions for follow up</string>
+    <string name="label_amenities">Amenities</string>
+
+    <string name="label_appointments_for_selected_date">Appointments for selected date</string>
+    <string name="label_your_appointments">YOUR APPOINTMENTS</string>
+    <string name="label_date_of_appointment">Date of appointment</string>
+    <string name="label_time_of_appointment">Time of appointment</string>
+
+    <string name="label_referral">REFERRAL</string>
+    <string name="label_referred_by">REFERRED BY</string>
+    <string name="label_name_of_business">Name of business</string>
+    <string name="label_check_if_business_exists">Check if business exists</string>
+    <string name="label_referral_list">REFERRALS LIST</string>
+
+    <string name="label_add_custom">Add custom</string>
+    <string name="label_add_custom_degree">Add custom degree</string>
+    <string name="label_add_custom_language">Add custom language</string>
+    <string name="label_abbr">Abbreviation</string>
+
+    <string name="label_doctor">DOCTOR</string>
+    <string name="label_check_if_doctor_exists">Check if doctor exists</string>
+    <string name="label_choose_facility_category">Choose a category</string>
+    <string name="label_medical_facilities">Medical Facilities</string>
+    <string name="label_equipments">Equipments</string>
+    <string name="label_company_name">Company Name</string>
+    <string name="label_model">Model Number</string>
+    <string name="label_new_college">Add new college</string>
+
+    <string name="label_minimum">Minimum :</string>
+    <string name="label_for_first">for first</string>
+    <string name="label_kms">kms</string>
+    <string name="label_km">km</string>
+    <string name="label_subsequent">Subsequent :</string>
+    <string name="label_waiting">Waiting :</string>
+    <string name="label_per">per</string>
+    <string name="label_hour">Hour</string>
+
+
+
+
+    <string name="label_opd_and_consultation">OPD and Consultation</string>
+
+    <string name="label_surgery_and_treatment">Surgery and Treatment</string>
+    <string name="no_doctor_added_label">No doctor added</string>
+    <string name="_label_no_room_type">No room type added</string>
+    <string name="label_no_ambulance">No ambulance added</string>
+    <string name="label_choose_equipment">CHOOSE EQUIPMENT</string>
+    <string name="add_custom_category_label">+ ADD CUSTOM CATEGORY</string>
+    <string name="label_filter_by_category">Filter by category</string>
+    <string name="label_enter_category_details">ENTER CATEGORY DETAILS</string>
+    <string name="label_no_facility_added">No facility added</string>
+
+
+</resources>

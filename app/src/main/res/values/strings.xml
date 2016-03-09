@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DCAPP</string>
+
+    <string name="toolbar_label">TAKECARE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_test_activity">Test</string>
+    <string name="action_force_load">Load</string>
+    <string name="action_clear_form">Clear</string>
+
+    <string name="drawer_open">Open the drawer</string>
+    <string name="drawer_close">Close the drawer</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="error_password">Empty password</string>
+
+    <string name="login">Login</string>
+    <string name="save">Save</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="forgot_passwd">Forgot Password?</string>
+
+    <string name="caption_hint">Add Caption&#8320;</string>
+    <string name="select_location_prompt">Select your location</string>
+
+    <string name="login_url">http://api.applenest.com/login/</string>
+
+    <string name="lorem_address">Massa etiam hac vestibulum,\nMagna neque tristique praesent. Morbi</string>
+
+    <string name="tab_businesses_header">BUSINESSES</string>
+
+    <!--Navigation Drawer Strings-->
+    <string name="drawer_area_data_header">DATA COLLECTION</string>
+    <string name="drawer_area_data_collectors">Data Collectors</string>
+    <string name="drawer_area_data_businesses">Businesses</string>
+
+    <string name="drawer_area_sales_header">SALES</string>
+    <string name="drawer_area_sales_managers">Sales Managers</string>
+    <string name="drawer_area_sales_businesses">Businesses</string>
+
+    <string name="drawer_area_new_header">NEW LEADS</string>
+    <string name="drawer_area_new_birth">New Business Birth</string>
+    <string name="drawer_area_new_referral">Referral</string>
+
+    <string name="drawer_agent_area_manager">View Area Manager</string>
+
+    <string name="drawer_agent_data_heading">DATA COLLECTION</string>
+    <string name="drawer_agent_data_pending">Pending</string>
+    <string name="drawer_agent_data_history">History</string>
+
+    <string name="drawer_agent_sales_heading">SALES</string>
+    <string name="drawer_agent_sales_pending">Pending</string>
+    <string name="drawer_agent_sales_history">History</string>
+
+    <string name="drawer_account_header">ACCOUNT</string>
+    <string name="drawer_account_profile">View Profile</string>
+    <string name="drawer_account_calendar">Calendar</string>
+    <string name="drawer_account_help">Help and Tour</string>
+    <string name="drawer_account_logout">Logout</string>
+    <string name="drawer_account_change_passwd">Change Password</string>
+
+    <string name="drawer_app_header">APPLICATION</string>
+    <string name="drawer_app_about">About</string>
+
+    <!--Button texts-->
+    <string name="button_assign">ASSIGN</string>
+    <string name="button_update">UPDATE</string>
+    <string name="button_edit">EDIT</string>
+    <string name="button_delete">DELETE</string>
+    <string name="button_duplicate">DUPLICATE</string>
+    <string name="button_more">MORE</string>
+    <string name="button_unassign">UNASSIGN</string>
+    <string name="button_profile">PROFILE</string>
+
+    <string name="button_add_to_database">ADD TO DATABASE</string>
+
+    <string name="button_add_location">ADD LOCATION</string>
+    <string name="button_change_location">CHANGE LOCATION</string>
+
+    <string name="button_complete">COMPLETE</string>
+    <string name="button_next">NEXT</string>
+
+    <string name="label_view_by_date">View by date</string>
+    <string name="label_appointment_not_taken">Appointment not taken</string>
+
+    <!-- Form/Activity Names -->
+    <string name="name_edit_facility">Update Facility</string>
+    <string name="name_create_facility">Create Facility</string>
+    <string name="name_edit_room">Update Room</string>
+    <string name="name_create_room">Create Room</string>
+    <string name="name_edit_ambulance">Update Ambulance</string>
+    <string name="name_create_ambulance">Create Ambulance</string>
+    <string name="name_edit_health_checkup">Update HealthCheckup</string>
+    <string name="name_create_health_checkup">Create HealthCheckup</string>
+    <string name="key_visiting_timing">visiting_timing</string>
+    <string name="name_edit_surgery_details">Update Surgery Details</string>
+    <string name="name_edit_doctor_opd_details">Update OPD Details</string>
+    <string name="name_edit_doctor">Update Doctor Details</string>
+    <string name="name_new_doctor">New Doctor</string>
+    <string name="name_doctor_visits">Doctor Visits</string>
+    <string name="name_edit_doctor_visit">Edit Doctor Visit</string>
+    <string name="name_create_doctor_visit">Create Doctor Visit</string>
+    <string name="name_nursing_packages">Nursing packages</string>
+    <string name="name_create_nursing_package">Create Nursing Package</string>
+    <string name="name_edit_nursing_package">Edit Nursing Package</string>
+    <string name="name_physiotherapies">Physiotherapies</string>
+    <string name="name_diagnostic_sample_collection">Diagnostic Sample Collection</string>
+    <string name="name_create_physiotherapy">Create Physiotherapy</string>
+    <string name="name_diagnostic_test_rates">Diagnostic Test Rates</string>
+    <string name="name_edit_physiotherapy">Edit Physiotherapy</string>
+    <string name="name_make_sales_appointment">Make Appointment</string>
+    <string name="name_create_referral">Create referral</string>
+    <string name="name_edit_referral">Update Referral</string>
+    <string name="name_create_doctor">Create Doctor</string>
+
+    <string name="media_type_image">image</string>
+    <string name="media_type_video">video</string>
+    <string name="media_type_website">website</string>
+
+    <string name="assign_to_self">AssignToSelf</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="new_business_birth">NEW BUSINESS BIRTH</string>
+    <string name="new_business_signup">NEW BUSINESS SIGN UP</string>
+    <string name="make_appointment">MAKE APPOINTMENT</string>
+
+    <string name="sign_up_confirmation_prompt">Do you want to complete the assignment</string>
+    <string name="data_collection_complete_confirmation">Do you want complete data collection for this hospital</string>
+
+    <string name="default_list_empty_message">0 items found</string>
+    <string name="complete_warning">Please check whether you have entered all of the following: \n\nHospital Details\nDoctors of the hospital\nOpd Schedule\nSurgery Details\nOther applicable services</string>
+    <string name="label_nursing_charges">Nursing Charges</string>
+
+
+    <string name="same_as_opd">Same as OPD</string>
+    <string name="same_as_open">Same as Open</string>
+
+    <string name="activity_doctor_search">com.applenest.takecare.ui.activity.DoctorSearchActivity</string>
+    <string name="facility_rate">Facility Rate</string>
+    <string name="basic_listing">Basic Listing</string>
+    <string name="surgery_treatment"><![CDATA[Surgery & Treatment]]></string>
+    <string name="diagnostic_test">Diagnostic Test</string>
+    <string name="health_checkup">Health Checkup</string>
+    <string name="home_service">Home Service</string>
+    <string name="doctor_visit">Doctor Visit</string>
+    <string name="nursing_package">Nursing Package</string>
+    <string name="physiotherapy">Physiotherapy</string>
+    <string name="diagnostic_test_sample">Diagnostic Test Sample Collection</string>
+    <string name="hospital_details">Hospital Details</string>
+    <string name="hospital_photos">Hospital Photos</string>
+    <string name="medical_facilities">Medical Facilites</string>
+    <string name="non_medical_facilities">Non Medical Facilites</string>
+    <string name="room_type">Room Type</string>
+    <string name="ambulances">Ambulances</string>
+    <string name="doctor">Doctor</string>
+
+
+
+
+    <array name="waiting_per_entries">
+        <item>hr</item>
+        <item>min</item>
+    </array>
+    <string name="title_activity_about">AboutActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_add_custom_equipment">+ ADD CUSTOM EQUIPMENT</string>
+
+
+</resources>

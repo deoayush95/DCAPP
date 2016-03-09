@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_form_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/FormLabel"
+        android:text="@string/label_check_if_doctor_exists" />
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_form_label"
+        style="@style/TextField"
+        android:hint="@string/hint_search_for_doctor"
+        />
+    <ListView
+        android:id="@android:id/list"
+        android:layout_below="@id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_create"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_create"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_large"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        android:text="@string/name_create_doctor" />
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_building_number">Enter building number</string>
+    <string name="hint_lane_street">Lane/Street</string>
+    <string name="hint_locality">Area</string>
+    <string name="hint_city">City</string>
+    <string name="hint_pincode">Pincode</string>
+    <string name="hint_specialities">Select specialities</string>
+    <string name="hint_address">Enter address</string>
+    <string name="hint_enter_year">Enter year</string>
+    <string name="hint_year">Year</string>
+    <string name="hint_from">from</string>
+    <string name="hint_to">to</string>
+    <string name="hint_area_in_sqft">Area in sq. ft</string>
+
+    <string name="hint_enter_name">Enter name</string>
+    <string name="hint_always_take_appointment">Always take appointment before visiting</string>
+
+    <string name="hint_type">Type</string>
+    <string name="hint_url">Enter url</string>
+    <string name="hint_video_url">Enter video url (optional)</string>
+    <string name="hint_website_url">Enter website url (optional)</string>
+
+    <string name="hint_number">Enter number</string>
+    <string name="hint_number_of_beds">Enter number of beds</string>
+    <string name="hint_email">Enter email ID(s)</string>
+    <string name="hint_registration_number">e.g.2015030001</string>
+    <string name="hint_phone_number">10 digit phone number</string>
+    <string name="hint_heading">Enter heading</string>
+    <string name="hint_rate_in_inr">Enter rate in INR</string>
+    <string name="hint_ex_per_day">Eg. per day, per hour</string>
+    <string name="hint_description">Enter description</string>
+    <string name="hint_guideline">Enter guidelines</string>
+    <string name="hint_date">Pick date</string>
+
+    <string name="hint_select_insurance_empanelments">Select insurance empanelments</string>
+    <string name="hint_select_tpa_empanelments">Select tpa empanelments</string>
+    <string name="hint_select_corporate_empanelments">Select corporate empanelments</string>
+    <string name="hint_url_if_applicable">Enter url if applicable</string>
+
+    <string name="hint_select_bank">Select Bank</string>
+    <string name="hint_account_number">Enter account number</string>
+    <string name="hint_branch_name">Enter branch name</string>
+    <string name="hint_ifsc">Enter IFSC code</string>
+    <string name="hint_mmid">Enter MMID</string>
+
+    <string name="hint_specialization">Select specialization</string>
+    <string name="hint_degree">Enter degree</string>
+    <string name="hint_enter_abbr">Enter Abbreviation</string>
+    <string name="hint_select_degree">Select degree</string>
+    <string name="hint_college_or_university">Enter college/university</string>
+    <string name="hint_graduation_year">Enter graduation year</string>
+    <string name="hint_joining_year">Enter joining year</string>
+    <string name="hint_hospital_name">Enter hospital name</string>
+    <string name="hint_select_languages">Select Languages</string>
+    <string name="hint_name_of_doctor_or_expert">Name of doctor/expert</string>
+    <string name="hint_business_name">Business Name</string>
+    <string name="hint_business_category">Business Category</string>
+    <string name="hint_aadhaar_card_number">Enter aadhaar card number</string>
+    <string name="hint_passport_number">Passport Number</string>
+    <string name="hint_service_localities">Serving Localities</string>
+    <string name="hint_visiting_localities">Visiting Localities</string>
+    <string name="hint_known_fors">Known Fors</string>
+    <string name="hint_hometown">Enter hometown</string>
+    <string name="hint_institution">Enter institution</string>
+
+    <string name="hint_sub_points">Enter sub points</string>
+
+    <string name="hint_select_type">Select type</string>
+    <string name="hint_select_sub_category">Select sub category</string>
+    <string name="hint_select_specialization">Select specialization</string>
+    <string name="hint_filter_by_type">Filter by type</string>
+    <string name="hint_rate">Enter rate</string>
+    <string name="hint_first_time_consultation_fee">First time consultation fee</string>
+    <string name="hint_follow_up">Follow up fee</string>
+
+    <string name="hint_duration_in_mins">Duration in mins</string>
+    <string name="hint_old_password">Old Password</string>
+    <string name="hint_new_password">Enter new password</string>
+    <string name="hint_confirm_passwd">Re enter your password</string>
+
+    <string name="hint_enter_time">Enter Time</string>
+    <string name="hint_make_appointment">Make Appointment</string>
+
+    <string name="hint_search">Search</string>
+    <string name="hint_search_for_business">Search for business</string>
+    <string name="hint_search_for_doctor">Search for doctor</string>
+
+    <string name="hint_enter_model_no">Enter Model No</string>
+    <string name="hint_enter_company_name">Enter Company Name</string>
+    <string name="hint_count">Count</string>
+    <string name="hint_select_non_medical_facilities">Select non medical facilities</string>
+    <string name="select_city">Select city</string>
+
+    <string name="hint_enter_language">Enter Language</string>
+</resources>

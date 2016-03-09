@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:layout_width="match_parent"
+        style="@style/FormSpinner"
+        android:id="@+id/spinner_service_speciality_list"
+        android:layout_height="wrap_content"
+        android:prompt="@string/hint_specialities"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_service_speciality_list"
+        android:id="@+id/service_scrollview">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FormLabel"
+            android:text="add doctor list here"/>
+    </ScrollView>
+</RelativeLayout>

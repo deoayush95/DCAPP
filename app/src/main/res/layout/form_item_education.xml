@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/FormLabel"
+        android:text="@string/label_education" />
+
+
+    <EditText
+        style="@style/TextField"
+        android:hint="@string/hint_select_degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextField"
+        android:hint="@string/hint_college_or_university" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextField.Small"
+        android:hint="@string/hint_joining_year"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextField.Small"
+        android:hint="@string/hint_graduation_year"
+        android:inputType="number" />
+
+</LinearLayout>

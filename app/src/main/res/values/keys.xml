@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Json Keys-->
+    <string name="key_name">name</string>
+    <string name="key_prefix">prefix</string>
+    <string name="key_address">address</string>
+    <string name="key_locality_id">locality_id</string>
+    <string name="key_city_id">city_id</string>
+    <string name="key_pin_code">pin_code</string>
+    <string name="key_geo_location">geolocation</string>
+    <string name="key_contacts">contacts</string>
+    <string name="key_contact">contact</string>
+    <string name="key_number_of_beds">bed_count</string>
+    <string name="key_emails">emails</string>
+    <string name="key_registrations">registrations</string>
+    <string name="key_phones">phones</string>
+    <string name="key_phone">phone</string>
+    <string name="key_speciality_type">speciality_type</string>
+    <string name="key_specialities">specialities</string>
+    <string name="key_rate">rate</string>
+    <string name="key_follow_up">follow_up</string>
+    <string name="key_rate_unit">rate_unit</string>
+    <string name="key_beds_per_room">beds_per_room</string>
+    <string name="key_room_id">room_id</string>
+    <string name="key_room_count">room_count</string>
+    <string name="key_room_rates">rates</string>
+    <string name="key_size">size</string>
+    <string name="key_heading">heading</string>
+    <string name="key_guidelines">guidelines</string>
+    <string name="key_visiting_guidelines">visiting_guidelines</string>
+    <string name="key_description">description</string>
+    <string name="key_description_content">description_content</string>
+    <string name="key_type_id">type_id</string>
+    <string name="key_services">services</string>
+    <string name="key_gallery">gallery</string>
+    <string name="key_empanelments">empanelments</string>
+    <string name="key_insurance">insurance</string>
+    <string name="key_tpa">tpa</string>
+    <string name="key_corporate">corporate</string>
+    <string name="key_other">other</string>
+    <string name="key_url">url</string>
+    <string name="key_abbr">abbreviation</string>
+    <string name="key_comments_for_business">comments_for_business</string>
+    <string name="key_comments_from_verifier">comments_from_verifier</string>
+    <string name="key_comments_from_data_collector">comments_from_data_collector</string>
+
+    <string name="key_listing">listing</string>
+    <string name="key_booking">booking</string>
+    <string name="key_payment">payment</string>
+    <string name="key_listing_reviews">listing_reviews</string>
+    <string name="key_listing_ratecard">listing_ratecard</string>
+
+    <string name="key_single">single</string>
+    <string name="key_multi">multi</string>
+    <string name="key_super">super</string>
+    <string name="key_quaternary">quaternary</string>
+
+    <string name="key_fellowships">fellowships</string>
+    <string name="key_memberships">memberships</string>
+    <string name="key_trainings">trainings</string>
+    <string name="key_languages">languages</string>
+    <string name="key_hospital_id">hospital_id</string>
+    <string name="key_locality_array">locality_array</string>
+    <string name="key_ambulance_type_id">ambulance_type_id</string>
+    <string name="key_ambulance_amenities">ambulance_amenity_ids</string>
+    <string name="key_count">count</string>
+    <string name="key_hometown">hometown</string>
+    <string name="key_media_type">media_type</string>
+    <string name="key_institution">institution</string>
+    <string name="key_year">year</string>
+
+    <string name="key_is_24x7">is_24x7</string>
+    <string name="key_timing">timing</string>
+    <string name="key_timings">timings</string>
+    <string name="key_applicable">timing_applicable</string>
+
+    <string name="key_payment_details">payment_details</string>
+    <string name="key_bank_id">bank_id</string>
+    <string name="key_account_number">account_number</string>
+    <string name="key_branch_name">branch_name</string>
+    <string name="key_ifsc">ifsc</string>
+    <string name="key_mmid">mmid</string>
+    <string name="key_incorporation_date">incorporation_date</string>
+    <string name="key_incorporation_year">incorporation_year</string>
+
+    <string name="key_awards">awards</string>
+
+    <string name="key_charges">charges</string>
+
+    <string name="key_btype_id">btype_id</string>
+    <string name="key_category">category</string>
+    <string name="key_category_name">category_name</string>
+    <string name="key_correspondents">correspondents</string>
+    <string name="key_designation">designation</string>
+    <string name="key_facilities">facilities</string>
+    <string name="key_facility_category_id">id</string>
+    <string name="key_non_medical_facilities">nm_facility_ids</string>
+    <string name="key_primary_specialization_id">primary_specialization_id</string>
+    <string name="key_specializations">specializations</string>
+    <string name="key_degree">degree</string>
+    <string name="key_degree_id">degree_id</string>
+    <string name="key_university">university</string>
+    <string name="key_graduation_year">graduation_year</string>
+    <string name="key_joining_year">joining_year</string>
+    <string name="key_commencement_year">commencement_year</string>
+    <string name="key_experience">experience</string>
+    <string name="key_prev_hospitals">prev_hospitals</string>
+    <string name="key_from">from</string>
+    <string name="key_to">to</string>
+    <string name="key_educations">educations</string>
+    <string name="key_number">number</string>
+    <string name="key_value">value</string>
+    <string name="key_type">type</string>
+    <string name="key_recommendations">recommendations</string>
+    <string name="key_doctor_name">doctor_name</string>
+    <string name="key_doctor_id">doctor_id</string>
+    <string name="key_date_of_birth">date_of_birth</string>
+    <string name="key_specialization_id">specialization_id</string>
+    <string name="key_aadhaar_number">aadhaar_number</string>
+    <string name="key_passport_number">passport_number</string>
+
+    <string name="key_personnel">personnel</string>
+    <string name="key_doctors">doctors</string>
+    <string name="key_nurses">nurses</string>
+    <string name="key_attendants">attendants</string>
+    <string name="key_wardboys">wardboys</string>
+    <string name="key_administrators">administrators</string>
+    <string name="key_class_4_workers">class_4_workers</string>
+
+    <string name="key_business_name">business_name</string>
+    <string name="key_business_category">business_category</string>
+
+    <string name="key_json_list_item_enabled">json_list_item_enabled</string>
+
+    <string name="key_category_id">category_id</string>
+    <string name="key_sub_cat_id">sub_cat_id</string>
+    <string name="key_diagnostic_test_id">diagnostic_test_id</string>
+    <string name="key_diagnostic_subcat_id">diagnostic_subcat_id</string>
+    <string name="key_diagnostic_service_tests">diagnostic_service_tests</string>
+    <string name="key_nabl">nabl</string>
+    <string name="key_id">id</string>
+    <string name="key_frequency">frequency</string>
+    <string name="key_timing_applicable">timing_applicable</string>
+    <string name="key_service_charge">service_charge</string>
+    <string name="key_visiting_charges">visiting_charges</string>
+    <string name="key_known_fors">known_fors</string>
+
+    <string name="key_services_offered">services_offered</string>
+    <string name="key_header">header</string>
+    <string name="key_sub_points">sub_points</string>
+
+    <string name="key_allow_appointment">allow_appointment</string>
+
+    <string name="key_same_as_opd">same_as_opd</string>
+    <string name="key_same_as_open">same_as_open</string>
+    <string name="key_opd_timings">opd_timings</string>
+    <string name="follow_up_instructions">follow_up_instructions</string>
+    <string name="key_opd_call_timings">opd_call_timings</string>
+    <string name="key_call_timing_applicable">call_timing_applicable</string>
+    <string name="key_cost">cost</string>
+    <string name="key_packages">packages</string>
+    <string name="key_individuals">individuals</string>
+    <string name="key_surgery_attributes">surgery_attributes</string>
+    <string name="key_room_visit_rates">room_visit_rates</string>
+    <string name="key_surgery_individual_attributes">surgery_individual_attributes</string>
+    <string name="key_surgery_container_attributes">surgery_container_attributes</string>
+    <string name="key_surgery_attribute_id">surgery_attribute_id</string>
+    <string name="key_total_days">total_days</string>
+    <string name="key_average_days">average_days</string>
+    <string name="key_duration">duration</string>
+    <string name="key_walk_in">walk_in</string>
+    <string name="key_online">online</string>
+    <string name="key_overall_cost">overall_cost</string>
+    <string name="key_surgery_cost">surgery_cost</string>
+
+    <string name="key_amenities">amenity_ids</string>
+
+    <string name="key_appointment_time">appointment_time</string>
+    <string name="key_business">business</string>
+
+    <string name="key_referee_name">referee_name</string>
+    <string name="key_referee_business_name">referee_business_name</string>
+    <string name="key_referee_contacts">referee_contacts</string>
+
+    <string name="key_input_doctor_suggest_name">name</string>
+    <string name="key_input_doctor_suggest_id">id</string>
+    <string name="applicable_services_provided">applicable_services_provided</string>
+
+
+    <!--Not applicable keys-->
+    <string name="not_applicable_empanelments">not_applicable_empanelments</string>
+    <string name="not_applicable_date_of_incorporation">not_applicable_date_of_incorporation</string>
+    <string name="not_applicable_guidelines">not_applicable_guidelines</string>
+    <string name="not_applicable_description">not_applicable_description</string>
+    <string name="not_applicable_aadhaar">not_applicable_aadhaar</string>
+    <string name="not_applicable_passport">not_applicable_passport</string>
+    <string name="not_applicable_hometown">not_applicable_hometown</string>
+    <string name="not_applicable_date_of_birth">not_applicable_date_of_birth</string>
+    <string name="key_nursing_charges">nursing_charges</string>
+    <string name="not_applicable_services_provided">no_services_provided</string>
+    <string name="key_company_name">company_name</string>
+    <string name="key_model_no">model_no</string>
+    <string name="key_college_id">college_id</string>
+
+    <string name="key_minimum">min</string>
+    <string name="key_first">first</string>
+    <string name="key_subsequent">subsequent</string>
+    <string name="key_waiting">waiting</string>
+    <string name="key_waiting_per">waiting_per</string>
+    <string name="key_hour">hr</string>
+    <string name="key_minute">min</string>
+</resources>

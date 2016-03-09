@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contact_types">
+        <item>Appointment</item>
+        <item>Mobile</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Nursing</item>
+        <item>Physiotherapy</item>
+        <item>Emergency</item>
+        <item>Doctor Home Visit</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="prefix_types">
+        <item>Dr</item>
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Ms.</item>
+    </string-array>
+
+    <string-array name="registrations_type">
+        <item>MCI</item>
+        <item>MMC</item>
+        <item>MCH</item>
+        <item>MSDC</item>
+        <item>CCH</item>
+        <item>MSOTPT</item>
+        <item>CCIM</item>
+        <item>MCIM</item>
+    </string-array>
+
+    <string-array name="empanelment_types">
+        <item>other</item>
+        <item>insurance</item>
+        <item>tpa</item>
+        <item>corporate</item>
+    </string-array>
+
+    <string-array name="questionnaire_sections">
+        <item>Hospital</item>
+        <item>Doctor</item>
+        <item>Service</item>
+        <item>Complete</item>
+    </string-array>
+
+    <array name="q_section_array_ids">
+        <item>@array/hospital_section_array</item>
+        <item>@array/doctor_section_array</item>
+        <item>@array/service_section_array</item>
+        <item>@array/complete_section_array</item>
+    </array>
+
+    <string-array name="hospital_section_array">
+        <item>1. Details</item>
+        <item>2. Medical Facilities</item>
+        <item>3. Non Medical Facilites</item>
+        <item>4. Room Types</item>
+        <item>5. Ambulances</item>
+    </string-array>
+
+    <string-array name="doctor_section_array">
+        <item>Doctor details</item>
+    </string-array>
+
+    <string-array name="service_section_array">
+        <item>1. OPD &amp; Consultation</item>
+        <item>2. Surgery &amp; Treatment </item>
+        <item>3. Diagnostic Tests</item>
+        <item>4. Health Checkups</item>
+    </string-array>
+
+    <string-array name="complete_section_array">
+        <item>Complete</item>
+    </string-array>
+
+    <string-array name="events_section_array">
+        <item>Events</item>
+    </string-array>
+
+    <string-array name="offers_section_array">
+        <item>Offers</item>
+    </string-array>
+</resources>

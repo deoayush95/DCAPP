@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/filter_catergory"
+        android:text="@string/label_filter_by_category"
+        android:layout_marginBottom="@dimen/margin_large"
+        style="@style/FormLabel"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        style="@style/FormSpinner"
+        android:layout_below="@+id/filter_catergory"
+        android:id="@+id/select_category"
+        android:layout_height="wrap_content"
+        android:prompt="@string/label_choose_facility_category"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_category"
+        android:layout_above="@+id/facility_next_button"
+        android:id="@+id/equipment_list">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="implement equipment list here"
+                android:layout_marginBottom="@dimen/margin_large"
+                style="@style/FormLabel"/>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/facility_next_button"
+        android:text="@string/next"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:background="@color/theme_primary"/>
+</RelativeLayout>
