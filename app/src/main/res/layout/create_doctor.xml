@@ -1,398 +1,416 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:orientation="vertical">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-        <TextView
-            style="@style/FormLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/label_name" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_create_doctor">
 
-        <LinearLayout
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <Spinner
-                android:id="@+id/spinner_prefix_type"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/FormSpinner"
-                android:prompt="@string/hint_type"
-                android:layout_weight="0.25"
-                >
-            </Spinner>
-
-            <EditText
-                style="@style/TextField"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_regular"
-                android:hint="@string/hint_enter_name"
-                android:layout_weight="0.75" />
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="@string/label_registrations" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multiple view feature) " />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <include layout="@layout/form_item_gallery_optional" />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <include
-            layout="@layout/form_item_gender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin_regular" />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="@string/label_awards_and_accreditation" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multiple view feature) " />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <include layout="@layout/form_item_education" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multiple view feature) " />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
                 style="@style/FormLabel"
-                android:text="@string/label_fellowships_and_trainings" />
-
-            <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
-                android:layout_marginRight="16dp"
+                android:text="@string/label_name" />
 
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
-        </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-        <include layout="@layout/form_item_fellowships_and_trainings" />
+                <Spinner
+                    android:id="@+id/spinner_prefix_type"
+                    style="@style/FormSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:prompt="@string/hint_type"></Spinner>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multiple view feature) " />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+                <EditText
+                    style="@style/TextField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_regular"
+                    android:layout_weight="0.75"
+                    android:hint="@string/hint_enter_name" />
+            </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
                 style="@style/FormLabel"
-                android:text="@string/label_memberships" />
-
-            <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
-                android:layout_marginRight="16dp"
-
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
-        </RelativeLayout>
-
-        <include layout="@layout/form_item_memberships" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multiple view feature) " />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <TextView
-            style="@style/FormLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/label_experience" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+                android:text="@string/label_registrations" />
 
             <TextView
-                style="@style/FormLabel.Inline"
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/label_year_of_practice_commencement" />
+                android:text=" (implement multiple view feature) " />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <include layout="@layout/form_item_gallery_optional" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <include
+                layout="@layout/form_item_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_regular" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_awards_and_accreditation" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (implement multiple view feature) " />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <include layout="@layout/form_item_education" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (implement multiple view feature) " />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_fellowships_and_trainings" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="@dimen/margin_regular"
+
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
+            <include layout="@layout/form_item_fellowships_and_trainings" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (implement multiple view feature) " />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_memberships" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="@dimen/margin_regular"
+
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
+            <include layout="@layout/form_item_memberships" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (implement multiple view feature) " />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_experience" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/FormLabel.Inline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_year_of_practice_commencement" />
+
+                <EditText
+                    style="@style/TextField.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_enter_year"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <include layout="@layout/form_item_experience" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (implement multiple view feature) " />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_email" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="@dimen/margin_regular"
+
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
+            <include layout="@layout/form_item_email_array_item" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_phone_number" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (implement multiple view feature) " />
+
+            <include layout="@layout/form_item_phone_number_array_item" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (implement multiple view feature) " />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_recommendations" />
+
+            <include layout="@layout/form_item_recommendations" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (implement multiple view feature) " />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_languages" />
 
             <EditText
                 style="@style/TextField.Small"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="@string/hint_enter_year"
-                android:inputType="number" />
+                android:hint="@string/hint_select_languages" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (implement multi select feature) " />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_date_of_birth" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="@dimen/margin_regular"
+
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
+            <EditText
+                style="@style/TextField.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/label_date_of_birth" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_known_fors" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="@dimen/margin_regular"
+
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
+            <EditText
+                style="@style/TextField.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_known_fors" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (implement multi select feature) " />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_hometown" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="@dimen/margin_regular"
+
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
+            <EditText
+                style="@style/TextField.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_hometown" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <include
+                layout="@layout/form_item_doctor_involvement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_regular" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_hometown" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="@dimen/margin_regular"
+
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
+            <include layout="@layout/form_item_services_provided" />
+
+
         </LinearLayout>
-
-        <include layout="@layout/form_item_experience" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multiple view feature) " />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                style="@style/FormLabel"
-                android:text="@string/label_email" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
-                android:layout_marginRight="16dp"
-
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
-        </RelativeLayout>
-
-        <include layout="@layout/form_item_email_array_item" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="@string/label_phone_number" />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multiple view feature) " />
-
-        <include layout="@layout/form_item_phone_number_array_item" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multiple view feature) " />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <TextView
-            style="@style/FormLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/label_recommendations" />
-
-        <include layout="@layout/form_item_recommendations" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multiple view feature) " />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="@string/label_languages" />
-
-        <EditText
-            style="@style/TextField.Small"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_select_languages" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multi select feature) " />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                style="@style/FormLabel"
-                android:text="@string/label_date_of_birth" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
-                android:layout_marginRight="16dp"
-
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
-        </RelativeLayout>
-
-        <EditText
-            style="@style/TextField.Small"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/label_date_of_birth" />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                style="@style/FormLabel"
-                android:text="@string/label_known_fors" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
-                android:layout_marginRight="16dp"
-
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
-        </RelativeLayout>
-
-        <EditText
-            style="@style/TextField.Small"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_known_fors" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text=" (implement multi select feature) " />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                style="@style/FormLabel"
-                android:text="@string/label_hometown" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
-                android:layout_marginRight="16dp"
-
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
-        </RelativeLayout>
-
-        <EditText
-            style="@style/TextField.Small"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_hometown" />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <include
-            layout="@layout/form_item_doctor_involvement"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin_regular" />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                style="@style/FormLabel"
-                android:text="@string/label_hometown" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
-                android:layout_marginRight="16dp"
-
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
-        </RelativeLayout>
-
-        <include layout="@layout/form_item_services_provided"/>
-    </LinearLayout>
-</ScrollView>
+    </ScrollView>
+    <Button
+        android:id="@+id/button_create_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/theme_primary"
+        android:text="@string/submit"
+        android:textColor="@color/white" />
+</RelativeLayout>

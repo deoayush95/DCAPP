@@ -1,104 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/FormLabel"
-        android:text="@string/label_enter_category_details"/>
-
-    <RelativeLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/button_equipment_details">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
             style="@style/FormLabel"
-            android:text="@string/label_company_name" />
-
-        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="@dimen/margin_regular"
-            android:layout_marginRight="@dimen/margin_large"
-            android:text="@string/label_not_applicable"
-            android:onClick="onCheckboxClicked"/>
-    </RelativeLayout>
+            android:text="@string/label_enter_category_details" />
 
-    <EditText
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/label_company_name" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
+        </RelativeLayout>
+
+        <EditText
+            style="@style/TextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_enter_company_name" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/label_model" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
+        </RelativeLayout>
+
+        <EditText
+            style="@style/TextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_enter_model_no" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/label_description" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
+        </RelativeLayout>
+
+        <EditText
+            style="@style/TextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_description" />
+
+        <EditText
+            style="@style/TextField.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_count"
+            android:inputType="number" />
+
+        <include layout="@layout/form_item_gallery_optional" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_equipment_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/TextField"
-        android:hint="@string/hint_enter_company_name"/>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            style="@style/FormLabel"
-            android:text="@string/label_model" />
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="@dimen/margin_regular"
-            android:layout_marginRight="@dimen/margin_large"
-            android:text="@string/label_not_applicable"
-            android:onClick="onCheckboxClicked"/>
-    </RelativeLayout>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/TextField"
-        android:hint="@string/hint_enter_model_no"/>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            style="@style/FormLabel"
-            android:text="@string/label_description" />
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="@dimen/margin_regular"
-            android:layout_marginRight="@dimen/margin_large"
-            android:text="@string/label_not_applicable"
-            android:onClick="onCheckboxClicked"/>
-    </RelativeLayout>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/TextField"
-        android:hint="@string/hint_description"/>
-
-    <EditText
-        style="@style/TextField.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:hint="@string/hint_count" />
-
-    <include layout="@layout/form_item_gallery_optional"/>
-
-
-</LinearLayout>
+        android:layout_alignParentBottom="true"
+        android:background="@color/theme_primary"
+        android:text="@string/submit"
+        android:textColor="@color/white" />
+</RelativeLayout>

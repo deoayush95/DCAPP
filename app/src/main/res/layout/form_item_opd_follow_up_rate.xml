@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/FormLabel.Inline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_follow_up_fee" />
+
+        <EditText
+            style="@style/TextField.Inline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_follow_up"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/FormLabel.Inline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_validity" />
+
+        <EditText
+            style="@style/TextField.Inline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/string_no_of_days"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/FormLabel.Inline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_days" />
+    </LinearLayout>
+
+</LinearLayout>

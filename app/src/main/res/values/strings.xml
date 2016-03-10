@@ -170,6 +170,11 @@
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="label_add_custom_equipment">+ ADD CUSTOM EQUIPMENT</string>
+    <string name="string_validity">Validity</string>
+    <string name="string_no_of_days">No of days</string>
+    <string name="string_days">Days</string>
+    <string name="string_accredited_with_NABL">Accredited with NABL</string>
+    <string name="string_test_rates">TEST RATES</string>
 
 
 </resources>

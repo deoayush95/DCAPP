@@ -1,189 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-    <LinearLayout
-        android:layout_width="match_parent" android:layout_height="match_parent"
-        android:orientation="vertical">
+    android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="@string/label_name_of_room_type"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/TextField"
-            />
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="add photos and url ui implementation"/>
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                style="@style/FormLabel"
-                android:text="@string/label_rent" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
-                android:layout_marginRight="@dimen/margin_large"
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
-        </RelativeLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <EditText
-                style="@style/TextField.Small"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_regular"
-                android:inputType="number"
-                android:hint="@string/hint_rate_in_inr" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/FormLabel.Inline"
-                android:text="@string/label_per_day" />
-        </LinearLayout>
-
-        <TextView
-            style="@style/FormLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/label_nursing_charges" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button_new_room">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
+                style="@style/FormLabel"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/FormLabel.Inline"
-                android:text="@string/label_inr" />
+                android:text="@string/label_name_of_room_type" />
+
             <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/TextField.Inline"
-                android:inputType="number"
-                />
+                style="@style/TextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include layout="@layout/layout_divider_horizontal" />
 
             <TextView
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/FormLabel.Inline"
-                android:text="@string/label_to" />
+                android:text="add photos and url ui implementation" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_rent" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_regular"
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    style="@style/TextField.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_regular"
+                    android:hint="@string/hint_rate_in_inr"
+                    android:inputType="number" />
+
+                <TextView
+                    style="@style/FormLabel.Inline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_per_day" />
+            </LinearLayout>
 
             <TextView
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/FormLabel.Inline"
-                android:text="@string/label_inr" />
+                android:text="@string/label_nursing_charges" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/FormLabel.Inline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_inr" />
+
+                <EditText
+                    style="@style/TextField.Inline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+                <TextView
+                    style="@style/FormLabel.Inline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_to" />
+
+                <TextView
+                    style="@style/FormLabel.Inline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_inr" />
+
+                <EditText
+                    style="@style/TextField.Inline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_beds_per_room" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_regular"
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
             <EditText
-                android:layout_width="wrap_content"
+                style="@style/TextField"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                style="@style/TextField.Inline"/>
+                android:hint="@string/hint_number" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_total_number_of_such_rooms" />
+
+            <EditText
+                style="@style/TextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_number" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_amenities" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_regular"
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
+            <EditText
+                style="@style/TextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <include layout="@layout/form_item_description" />
+
+
         </LinearLayout>
+    </ScrollView>
 
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                style="@style/FormLabel"
-                android:text="@string/label_beds_per_room" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
-                android:layout_marginRight="@dimen/margin_large"
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
-        </RelativeLayout>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/TextField"
-            android:hint="@string/hint_number"/>
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="@string/label_total_number_of_such_rooms"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/TextField"
-            android:hint="@string/hint_number"
-            />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                style="@style/FormLabel"
-                android:text="@string/label_amenities" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
-                android:layout_marginRight="@dimen/margin_large"
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
-        </RelativeLayout>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/TextField" />
-
-        <include layout="@layout/layout_divider_horizontal" />
-
-        <include layout="@layout/form_item_description" />
-
-    </LinearLayout>
-</ScrollView>
+    <Button
+        android:id="@+id/button_new_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/theme_primary"
+        android:text="@string/submit"
+        android:textColor="@color/white" />
+</RelativeLayout>

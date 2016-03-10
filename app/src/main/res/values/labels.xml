@@ -237,6 +237,7 @@
     <string name="label_filter_by_category">Filter by category</string>
     <string name="label_enter_category_details">ENTER CATEGORY DETAILS</string>
     <string name="label_no_facility_added">No facility added</string>
+    <string name="label_INR">INR</string>
 
 
 </resources>

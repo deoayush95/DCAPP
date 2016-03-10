@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:id="@+id/hospital_scollview"
-    >
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
     <LinearLayout
-        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
+            style="@style/FormLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="@string/label_name_hospital"/>
+            android:text="@string/label_name_hospital" />
 
         <EditText
+            style="@style/TextField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TextField"
             android:layout_marginBottom="@dimen/margin_regular"
-            android:hint="@string/hint_enter_name"/>
+            android:hint="@string/hint_enter_name" />
 
         <include layout="@layout/layout_divider_horizontal" />
 
         <include layout="@layout/form_item_gallery_optional" />
+
         <include layout="@layout/layout_divider_horizontal" />
 
         <TextView
+            style="@style/FormLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="@string/label_speciality"/>
+            android:text="@string/label_speciality" />
 
         <RadioGroup
+            style="@style/RadioFieldGroup"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            >
+            android:layout_height="wrap_content">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -52,10 +52,10 @@
         </RadioGroup>
 
         <Spinner
-            android:layout_width="match_parent"
             style="@style/FormSpinner"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:prompt="@string/hint_specialities"/>
+            android:prompt="@string/hint_specialities" />
 
         <include layout="@layout/layout_divider_horizontal" />
 
@@ -64,28 +64,28 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                style="@style/FormLabel"
                 android:text="@string/label_number_of_beds" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
                 android:layout_marginRight="16dp"
+                android:layout_marginTop="@dimen/margin_regular"
 
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
         </RelativeLayout>
 
         <EditText
+            style="@style/TextField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TextField"
-            android:hint="@string/hint_number_of_beds"/>
+            android:hint="@string/hint_number_of_beds" />
 
         <include layout="@layout/layout_divider_horizontal" />
 
@@ -94,28 +94,30 @@
         <include layout="@layout/layout_divider_horizontal" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             style="@style/FormLabel"
-            android:text="@string/label_email" />
-        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/label_email" />
+
+        <EditText
             style="@style/TextField"
-            android:inputType="textEmailAddress"
-            android:hint="@string/hint_email" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress" />
 
         <include layout="@layout/layout_divider_horizontal" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             style="@style/FormLabel"
-            android:text="@string/label_phone_number" />
-        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/label_phone_number" />
+
+        <EditText
             style="@style/TextField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:hint="@string/hint_phone_number" />
 
         <include layout="@layout/layout_divider_horizontal" />
@@ -124,7 +126,7 @@
             style="@style/FormLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Insert Open/Close timing custom view"/>
+            android:text="Insert Open/Close timing custom view" />
 
         <include layout="@layout/layout_divider_horizontal" />
 
@@ -132,99 +134,99 @@
             style="@style/FormLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/label_awards_and_accreditation"/>
+            android:text="@string/label_awards_and_accreditation" />
 
         <include layout="@layout/layout_divider_horizontal" />
 
         <TextView
+            style="@style/FormLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="@string/label_empanelments"/>
+            android:text="@string/label_empanelments" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/FormLabel"
                 android:text="@string/label_insurance" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
                 android:layout_marginRight="@dimen/margin_large"
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
         </RelativeLayout>
 
         <EditText
+            style="@style/TextField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TextField"
-            android:hint="@string/hint_select_insurance_empanelments"/>
+            android:hint="@string/hint_select_insurance_empanelments" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/FormLabel"
                 android:text="@string/label_tpa" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
                 android:layout_marginRight="@dimen/margin_large"
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
         </RelativeLayout>
 
         <EditText
+            style="@style/TextField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TextField"
-            android:hint="@string/hint_select_tpa_empanelments"/>
+            android:hint="@string/hint_select_tpa_empanelments" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/FormLabel"
                 android:text="@string/label_corporate" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
                 android:layout_marginRight="@dimen/margin_large"
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
         </RelativeLayout>
 
         <EditText
+            style="@style/TextField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TextField"
-            android:hint="@string/hint_select_corporate_empanelments"/>
+            android:hint="@string/hint_select_corporate_empanelments" />
 
         <TextView
+            style="@style/FormLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/FormLabel"
-            android:text="@string/label_others"/>
+            android:text="@string/label_others" />
 
         <include layout="@layout/layout_divider_horizontal" />
 
@@ -233,19 +235,19 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/FormLabel"
                 android:text="@string/label_guidelines" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
                 android:layout_marginRight="@dimen/margin_large"
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
         </RelativeLayout>
 
         <include layout="@layout/layout_divider_horizontal" />
@@ -255,26 +257,26 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/FormLabel"
                 android:text="@string/label_year_of_incorporation" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
                 android:layout_marginRight="@dimen/margin_large"
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
         </RelativeLayout>
 
         <EditText
+            style="@style/TextField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TextField"
-            android:hint="@string/hint_year"/>
+            android:hint="@string/hint_year" />
 
         <include layout="@layout/layout_divider_horizontal" />
 
@@ -283,26 +285,26 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/FormLabel"
                 android:text="@string/label_known_fors" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
                 android:layout_marginRight="@dimen/margin_large"
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
         </RelativeLayout>
 
         <EditText
+            style="@style/TextField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TextField"
-            android:hint="@string/hint_known_fors"/>
+            android:hint="@string/hint_known_fors" />
 
         <include layout="@layout/layout_divider_horizontal" />
 
@@ -311,31 +313,31 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/FormLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/FormLabel"
                 android:text="@string/label_description" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/margin_regular"
                 android:layout_marginRight="@dimen/margin_large"
-                android:text="@string/label_not_applicable"
-                android:onClick="onCheckboxClicked"/>
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/label_not_applicable" />
         </RelativeLayout>
 
         <EditText
+            style="@style/TextField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TextField"
-            android:hint="@string/hint_heading"/>
+            android:hint="@string/hint_heading" />
 
         <EditText
+            style="@style/TextField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TextField"
-            android:hint="@string/hint_description"/>
+            android:hint="@string/hint_description" />
     </LinearLayout>
 </ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CheckBox"
+        android:paddingBottom="@dimen/margin_larger"
+        android:onClick="onCheckboxClicked"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_name"
+        style="@style/FormLabel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_INR"
+        android:layout_marginLeft="@dimen/margin_larger"
+        style="@style/FormLabel"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        style="@style/TextField"
+        android:hint="@string/hint_rate" />
+
+</LinearLayout>
