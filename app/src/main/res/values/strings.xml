@@ -175,6 +175,8 @@
     <string name="string_days">Days</string>
     <string name="string_accredited_with_NABL">Accredited with NABL</string>
     <string name="string_test_rates">TEST RATES</string>
+    <string name="label_outside_ot">OUTSIDE OT</string>
+    <string name="label_choose_doctor_replicate_rates">Choose Doctor to replicate rates</string>
 
 
 </resources>

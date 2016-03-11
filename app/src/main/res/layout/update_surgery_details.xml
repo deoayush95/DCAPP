@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_update_surgery">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/label_opd_consultation_schedule" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="@dimen/margin_regular"
+
+                    android:onClick="onCheckboxClicked"
+                    android:text="@string/label_not_applicable" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:style="@style/RadioFieldGroup">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_same_all_days" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_same_for_weekdays" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_different_each_day" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Implement week schedule view here" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/margin_larger"
+                android:text="@string/label_inside_ot"
+                android:textSize="@dimen/font_regular" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="Surgeon Cost" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="OT Charges" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="Drugs , Consumables and Implants" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="Anaesthetist Cost" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/margin_larger"
+                android:text="@string/label_outside_ot"
+                android:textSize="@dimen/font_regular" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="Room Rent" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="Pre and Post operation Drugs, Consumables and medicine" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="Nursing Charges" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="Doctor Visit" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="Doctor Visit" />
+
+            <include layout="@layout/layout_divider_horizontal"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:onClick="onCheckboxClicked"
+                android:text="Diagnostic Tests" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FormLabel"
+                android:text="@string/label_room_visit_rates" />
+
+            <include layout="@layout/form_item_room_visit_rates"/>
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_update_surgery"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        android:text="@string/submit" />
+</RelativeLayout>
