@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_create_health_checkup">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_name_of_health_checkup" />
+
+            <EditText
+                style="@style/TextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_health_checkup_type" />
+
+            <Spinner
+                style="@style/FormSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/hint_specialities" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <include layout="@layout/form_item_description" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_services" />
+
+            <EditText
+                style="@style/TextField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_heading" />
+
+            <EditText
+                style="@style/TextField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="10"
+                android:inputType="textMultiLine"
+                android:hint="@string/hint_sub_points" />
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_rate" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_regular"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/FormLabel.Inline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_inr" />
+
+                <EditText
+                    style="@style/TextField.Inline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_rate_in_inr"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_create_health_checkup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/theme_primary"
+        android:text="@string/submit"
+        android:textColor="@color/white" />
+</RelativeLayout>
