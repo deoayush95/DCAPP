@@ -209,4 +209,5 @@
     <string name="key_waiting_per">waiting_per</string>
     <string name="key_hour">hr</string>
     <string name="key_minute">min</string>
+    <string name="label_hospital_custom_addition">Hospital : Custom Addition</string>
 </resources>

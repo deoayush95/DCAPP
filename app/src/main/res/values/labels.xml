@@ -239,6 +239,11 @@
     <string name="label_no_facility_added">No facility added</string>
     <string name="label_INR">INR</string>
     <string name="label_inside_ot">INSIDE OT</string>
+    <string name="label_city">City</string>
+    <string name="label_doctor_name">Doctor Name</string>
+    <string name="label_no_recommendation">No recommendation added</string>
+    <string name="label_add_more_recommendation">ADD MORE RECOMMENDATION</string>
+    <string name="label_type_diagnostic_lab_name">Type Diagnostic lab Name</string>
 
 
 </resources>

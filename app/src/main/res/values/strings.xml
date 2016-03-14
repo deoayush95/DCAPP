@@ -177,6 +177,10 @@
     <string name="string_test_rates">TEST RATES</string>
     <string name="label_outside_ot">OUTSIDE OT</string>
     <string name="label_choose_doctor_replicate_rates">Choose Doctor to replicate rates</string>
+    <string name="string_hospital_name">Hospital Name</string>
+    <string name="label_select_diagnostic_lab">Select Diagnostic Lab</string>
+    <string name="label_all_procedures_surgeries_treatment">All Procedures/Surgeries/Treatments</string>
+    <string name="label_select_doctor">Select Doctor</string>
 
 
 </resources>
