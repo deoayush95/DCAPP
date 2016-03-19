@@ -53,4 +53,21 @@
             android:layout_marginTop="@dimen/margin_medium"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_medium">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_regular"
+            android:paddingLeft="@dimen/padding_huge"
+            android:paddingRight="@dimen/padding_huge"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:text="@string/submit" />
+    </LinearLayout>
+
 </LinearLayout>
